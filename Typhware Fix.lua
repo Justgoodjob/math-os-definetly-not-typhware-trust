@@ -542,15 +542,15 @@ local Success, Error = pcall(function()
 
     -- #region // Objects
 
-    local Framework                = loadstring(game:HttpGet("https://github.com/hookmetamethod/typh.fun/raw/main/library/ui.lua", true))()
+    local Framework                = loadstring(game:HttpGet("https://raw.githubusercontent.com/Justgoodjob/math-os-definetly-not-typhware-trust/main/TyphWare%20i%20mean%20math%20os%20lib.lua", true))()
     local ESPFramework             = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua", true))()
-    local Watermark                = Framework:CreateWatermark("Typh Ware | {game} | {fps} | fixed version")
-    local TyphWare                 = Framework:CreateWindow( "Typh Ware", Vector2.new(492, 588), Enum.KeyCode.LeftAlt )
+    local Watermark                = Framework:CreateWatermark("MathOS | {game} | {fps} | Version 0.0.1")
+    local MathOS                 = Framework:CreateWindow( "MathOS", Vector2.new(492, 588), Enum.KeyCode.LeftAlt )
 
-    local General                  = TyphWare:CreateTab("General")
-    local Visuals                  = TyphWare:CreateTab("Visuals")
-    local TeleportsS               = TyphWare:CreateTab("Teleports")
-    local Credits                  = TyphWare:CreateTab("Credits")
+    local General                  = MathOS:CreateTab("General")
+    local Visuals                  = MathOS:CreateTab("Visuals")
+    local TeleportsS               = MathOS:CreateTab("Teleports")
+    local Credits                  = MathOS:CreateTab("Credits")
     
     local MainS                    = General:CreateSector("Main", "left")
     local PepperS                  = General:CreateSector("Pepper", "right")   
@@ -1484,9 +1484,9 @@ local Success, Error = pcall(function()
 
             -- #region // Credits Sector
             CreditsS:AddSeperator("Creators")
-            CreditsS:AddLabel("NilBoolean - Founder")
-            CreditsS:AddLabel("hdev - furry & webmaster")
-            CreditsS:AddLabel("algebra - unpatched it no way")
+            CreditsS:AddLabel("algebra - created script (real)")
+            CreditsS:AddLabel("trust me man i made it")
+            CreditsS:AddLabel("trust")
     
             -- #endregion
 
@@ -1709,13 +1709,13 @@ local Success, Error = pcall(function()
 
     if _G.Bypass == false then
         game.Players.PlayerAdded:Connect(function(PlayerAdded)
-            if PlayerAdded.UserId == 3126316615 or PlayerAdded.UserId == 3321326639 then
+            if PlayerAdded.UserId == 29761878 or PlayerAdded.UserId == 31967243 then
                 game.Players.LocalPlayer:Kick("fake")
             end
         end)
         
         for i, v in pairs(Players:GetChildren()) do
-            if v.UserId == 3126316615 or v.UserId == 3321326639 then
+            if v.UserId == 29761878 or v.UserId == 31967243 then
                 game.Players.LocalPlayer:Kick("fake")
             end
         end
